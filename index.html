@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SportFun</title>
+  <meta name="description" content="SportFun: materi PJOK SMA, pengembangan diri, video pembelajaran, dan kuis seru.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231d4ed8'/%3E%3Ctext x='16' y='23' font-size='20' text-anchor='middle' font-family='Arial'%3E%F0%9F%8F%85%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar" aria-label="Menu utama">
+      <a class="brand" href="#home"><span>SportFun</span></a>
+      <nav id="nav">
+        <a href="#home" data-r="home"><i>🏠</i> Beranda</a>
+        <a href="#materi" data-r="materi"><i>📖</i> Materi Cabor</a>
+        <a href="#diri" data-r="diri"><i>🌟</i> Pengembangan Diri</a>
+        <a href="#video" data-r="video"><i>▶️</i> Video</a>
+        <a href="#kuis" data-r="kuis"><i>📝</i> Kuis</a>
+      </nav>
+      <p class="side-foot">Belajar PJOK SMA jadi lebih seru.</p>
+    </aside>
+    <div class="backdrop" id="backdrop"></div>
+    <div class="content">
+      <header class="mobilebar">
+        <button id="menuBtn" type="button" aria-label="Buka menu" aria-controls="sidebar">☰</button>
+        <span class="brand">🏅 SportFun</span>
+      </header>
+      <main id="app" tabindex="-1"><noscript>Situs ini membutuhkan JavaScript.</noscript></main>
+      <footer class="footer"><p>SportFun — media belajar PJOK SMA. Skor kuis tersimpan di perangkat ini.</p></footer>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
